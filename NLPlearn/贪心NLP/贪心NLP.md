@@ -68,6 +68,7 @@ Deep BI-LSTM
 类比文本：
 单词特征 -> 句法特征 -> 语义特征
 ![deepBILSTM](./image/Deep%20BI-LSTM.bmp)
+
 ###（3）ELMO
 ![ELMO](./image/ELMO.bmp)
 
