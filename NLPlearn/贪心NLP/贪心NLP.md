@@ -29,9 +29,11 @@ add-one smoothing,good-turning Smoothing,
 preplexity
 
 基于分布式表示的模型总览
+
 ![Image text](./image/wordmodel.bmp)
 
 建议的学习路径
+
 ![Image text](./image/wordpath.bmp)
 
 词向量训练常见的方法：
@@ -51,17 +53,20 @@ NNLM  P(w2|w1)P(w3|w2)P(w4|w3)  <2nd markov assumptions>
 ## 2、ELMo
 <deep contextualized word representations>
 
-#####核心思想
+###核心思想
+
 1、基于语言模型的训练：使用LSTM作为基石
 2、启发于深度学习中的层次表达
 Deep BI-LSTM
 对于一个单词，动态地学习在上下文中的词向量
 
 ###（1）利用LSTM学习词向量（语言模型）
+
 单向 LSTM T1->T2->T3
 双向 LSTM(BI-LSTM) T1<->T2<->T3 (近似双向)
 
 ###（2）双向LSTM结合深度学习
+
 深度学习图像，可以学习每一个层级的特征，每一个层级的特征信息从简单到复杂，越来越能
 体现图像表示的内容
 
@@ -70,6 +75,7 @@ Deep BI-LSTM
 ![deepBILSTM](./image/Deep%20BI-LSTM.bmp)
 
 ###（3）ELMO
+
 ![ELMO](./image/ELMO.bmp)
 
 
