@@ -29,10 +29,10 @@ add-one smoothing,good-turning Smoothing,
 preplexity
 
 基于分布式表示的模型总览
-![Image text](imageordmodel.bmp)
+![Image text](./image/wordmodel.bmp)
 
 建议的学习路径
-![Image text](imageordpath.bmp)
+![Image text](./image/wordpath.bmp)
 
 
 
